@@ -29,16 +29,35 @@ header {
 
 nav {
     background-color: #333;
-    padding: 0.5rem;
     margin-bottom: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav a {
     color: white;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     text-decoration: none;
     font-weight: bold;
+}
+
+.divnadpis {
+    padding: 0 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divnadpis h1 {
+    margin-top: 1.6rem;
+}
+
+.diva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
 }
 
 nav a:hover {
@@ -66,7 +85,7 @@ h2 {
 }
 
 ul {
-    list-style-type:armenian;
+    list-style-type: "- ";
     padding-left: 1.5rem;
     line-height: 1.5;
 }
@@ -80,13 +99,16 @@ footer {
 
 .nadpis {
     font-family: 'Tan Rosebud', Arial, sans-serif;
-    font-size: 150px;
-    margin-bottom: -1rem;
-    margin-top: 3.5rem;
+    font-size: 30px;
+    color: white;
 }
 
 .podpis {
     font-family: Arial;
     font-weight: bold;
     margin-top: 0;
+}
+
+.metrodimg {
+    margin-left: 3rem;
 }

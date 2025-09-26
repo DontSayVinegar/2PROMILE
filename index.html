@@ -7,54 +7,113 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="nadpis">RCHŠ</h1>
-        <p class="podpis">Richard Šiser - Inženýrské služby</p>
-    </header>
-
     <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
+        <div class="divnadpis"><h1 class="nadpis">RCHŠ</h1></div>
+        <div class="diva">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
+        </div>
+        
     </nav>
 
     <section id="about">
-        <h2>About Me</h2>
+        <h2>Kdo jsme?</h2>
         <p>
-            I am a passionate Mechanical Engineering student with a keen interest in 
-            robotics, CAD design, and sustainable energy solutions. My academic journey 
-            has been driven by curiosity and a desire to solve real-world problems.
+            RCHŠ Inženýrství s.r.o. je společnost založena Ing. Richardem Šiserem 27. října 2024, poskytující profesionální inženýřské služby napříč všemi sektory.
         </p>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
+        <h2>Projekty</h2>
         <div class="project">
-            <h3>Robotic Arm Prototype</h3>
-            <p>Designed and built a 4-DOF robotic arm using Arduino and stepper motors for precise movement.</p>
+            <h3>Běh na 2 promile</h3>
+            <p>Naše firma byla zodpovědná za řešení všech inženýrských problémů spjatými s organizací slavné akce <i>Běh na 2 promile</i>.</p>
         </div>
         <div class="project">
-            <h3>Wind Turbine Design</h3>
-            <p>Developed a small-scale wind turbine model optimized for low-wind conditions using SolidWorks.</p>
+            <h3>Stavba Metra D</h3>
+            <p>Hrajeme klíčovou roli ve stavbě linky D pražského metra.</p>
+            <img src="img/metrod.jpg" alt="stavba metra D" width="300" height="200" class="metrodimg">
         </div>
     </section>
 
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>Kompetence</h2>
+        <h3>Broušení nožů</h3>
         <ul>
-            <li>CAD Software: AutoDesk Inventor, AutoDesk Fusion, Shapr3D</li>
-            <li>Finite Element Analysis (FEA)</li>
-            <li>3D Printing & Prototyping</li>
-            <li>Arduino & Embedded Systems</li>
-            <li>Thermodynamics & Fluid Mechanics</li>
+            <li>Broušení nožů japonskými vodními kameny</li>
+        </ul>
+        <h3>Analytické a výpočetní metody</h3>
+        <ul>
+            <li>Konstrukce tlakových nádob</li>
+            <li>Konstrukce turbín a lopatkových strojů</li>
+            <li>Návrh chladicích systémů</li>
+            <li>Návrh výrobních přípravků a upínačů</li>
+            <li>Ergonomický design produktů</li>
+            <li>Návrh strojních bezpečnostních prvků (ISO 13849)</li>
+        </ul>
+        <h3>Materiálové inženýrství</h3>
+        <ul>
+            <li>Metalurgie a tepelné zpracování kovů</li>
+            <li>Analýza mechanických vlastností (pevnost, tvrdost, houževnatost)</li>
+            <li>Fraktografie a analýza porušení</li>
+            <li>Korozní procesy a ochrana proti korozi</li>
+            <li>Povrchové úpravy (PVD, CVD, anodizace, nitridace)</li>
+            <li>Kompozity a jejich výroba</li>
+            <li>Keramické materiály</li>
+            <li>Biokompatibilní materiály (implantáty)</li>
+            <li>Pokročilé polymery a plasty</li>
+            <li>Smart materiály (tvarová paměť, piezoelektrické)</li>
+        </ul>
+
+        <h3>Řízení projektů a procesů</h3>
+        <ul>
+            <li>Projektový management (PMI, PRINCE2)</li>
+            <li>Agile a Scrum pro inženýrské týmy</li>
+            <li>Lean projektový management</li>
+            <li>Řízení nákladů (Cost Engineering)</li>
+            <li>FMEA (Failure Mode and Effects Analysis)</li>
+            <li>PPAP (Production Part Approval Process)</li>
+            <li>SPC (Statistical Process Control)</li>
+            <li>MSA (Measurement System Analysis)</li>
+            <li>Dokumentace a normy ISO</li>
+            <li>CE certifikace a bezpečnostní normy</li>
+            <li>Správa technické dokumentace (PLM – Product Lifecycle Management)</li>
+        </ul>
+
+        <h3>Elektronika a mechatronika</h3>
+        <ul>
+            <li>Základy elektrotechniky a obvodů</li>
+            <li>PLC programování (Siemens, Allen-Bradley)</li>
+            <li>Senzory a aktuátory</li>
+            <li>IoT systémy ve strojírenství</li>
+            <li>Robotika a průmyslová automatizace</li>
+            <li>Návrh PCB (Altium Designer, KiCad)</li>
+            <li>Programování mikrokontrolérů (Arduino, ESP32, STM32)</li>
+            <li>Základy embedded systémů</li>
+            <li>Řízení pohonů (servo, krokové motory)</li>
+            <li>Pneumatické a hydraulické řídicí systémy</li>
+        </ul>
+
+        <h3>Měření, testování a kvalita</h3>
+        <ul>
+            <li>Metrologie (CMM – souřadnicové měřicí stroje)</li>
+            <li>Nedestruktivní zkoušení (NDT – ultrazvuk, RTG, magnetická prášková metoda)</li>
+            <li>Destruktivní zkoušení (tahová, ohybová, rázová)</li>
+            <li>Vibrace a modální testování</li>
+            <li>Akustické měření a analýza hluku</li>
+            <li>Měření průtoku a tlaku</li>
+            <li>Kalibrace měřicích zařízení</li>
+            <li>Validace prototypů a zkušební programy</li>
+            <li>ISO 9001 a systémy řízení kvality</li>
         </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
+        <h2>Kontakt</h2>
         <p>Email: <a href="mailto:richardsiser@gmail.com">richardsiser@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/denis-fabien-kurpiers-257479276/" target="_blank">linkedin.com/in/johndoe</a></p>
         <p>GitHub: <a href="https://github.com/DontSayVinegar" target="_blank">github.com/DontSayVinegar</a></p>
     </section>
 
